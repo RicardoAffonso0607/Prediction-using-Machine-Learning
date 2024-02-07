@@ -10,7 +10,7 @@ With the "main.py" file, there is two databases, the "clients.csv" (to train the
 - [Pandas](https://pandas.pydata.org/): Used for data manipulation.
 
 ## How do I make it?
-First, I had used the Pandas library to open the "clients.csv" file. The Scikit Learn library have been used after to prepare the data (dividing the data into training and test).
+First, I had used the Pandas library to open the "clients.csv" file. The SciKit Learn library have been used after to prepare the data (dividing the data into training and test).
 
 With all this ready. I've used the "RandomForestClassifier()" and "KNeighborsClassifier()" models to train the IA and decide which one is better.
 
@@ -29,6 +29,21 @@ After that, I was curious to find what colummn was the most important to the dec
 <img src="https://github.com/RicardoAffonso0607/Prediction-using-Machine-Learning/assets/127418054/8eec5eaa-e100-4e73-b098-ade23cb14917" />
 
 Interpreting this data, we can see the "debt", "credits" and "loan interest" weighs the most.
+
+## How to Run
+
+1. Clone the repository:
+   ````bash
+   git clone https://github.com/RicardoAffonso0607/Prediction-using-Machine-Learning
+2. Make sure that you've already installed the Pandas and SciKit Learn libraries:
+   ```bash
+   pip install pandas
+   pip install –U scikit-learn
+3. Unzip the files
+4. Run the Project:
+   ```bash
+   python main.py # Windows
+   python3 main.py # Linux
 
 ## Conclusion
 
